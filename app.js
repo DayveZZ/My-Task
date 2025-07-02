@@ -257,5 +257,4 @@ function renderTasks() {
 
   function renderList() {}
 }
-
 renderTasks();
