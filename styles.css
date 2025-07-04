@@ -27,7 +27,11 @@ header {
   padding: 0 2rem;
   box-shadow: var(--box-shadow);
 }
-
+header #user-info {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
 nav {
   display: flex;
   gap: 1.5rem;
@@ -56,7 +60,8 @@ nav a:active {
 }
 
 .page-section {
-  display: none; /* Change to none */
+  /* display: none;  */
+  /* Change to none */
   max-width: 800px;
   margin: 2rem auto;
   background: var(--surface-color);
